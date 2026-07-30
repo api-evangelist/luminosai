@@ -1,7 +1,29 @@
 aid: luminosai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/luminosai.png
 name: Luminos.AI
-description: Luminos.AI is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Luminos.AI is an AI governance and evaluation platform that tests AI systems —
+  classical machine learning, generative AI, and autonomous agents — for legal,
+  regulatory, and reputational risk. The platform automates continuous
+  evaluations against customizable risks, generates privileged, audit-ready
+  compliance documentation, runs approval and governance workflows, and monitors
+  deployed models in real time for drift, updates, and deployment-context
+  changes, all without requiring direct access to the underlying model. Luminos.AI
+  was surfaced as a portfolio company of Bloomberg Beta and profiled into the API
+  Evangelist network. It does not currently publish a public developer API, SDKs,
+  or an OpenAPI definition; the product is engaged through hosted evaluations and
+  demos.
 url: https://raw.githubusercontent.com/api-evangelist/luminosai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- AI Governance
+- AI Evaluation
+- Compliance
+- Risk Management
+- AI Safety
+- Regulatory Technology
+- Agentic AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,32 @@ maintainers:
 common:
 - type: Website
   url: https://www.luminos.ai/
+- type: Platform
+  url: https://www.luminos.ai/platform
+- type: GettingStarted
+  url: https://www.luminos.ai/run-an-eval
+- type: SignUp
+  url: https://www.luminos.ai/demo
+- type: Blog
+  url: https://www.luminos.ai/resource-center
+- type: Support
+  url: https://www.luminos.ai/contact
+- type: PrivacyPolicy
+  url: https://www.luminos.ai/privacy
+- type: TermsOfService
+  url: https://www.luminos.ai/terms
+- type: Security
+  url: https://www.luminos.ai/security
+- type: TrustCenter
+  url: security/luminosai-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/luminosai-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/luminosai-domain-security.yml
+- type: LLMsTxt
+  url: llms/luminosai-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
